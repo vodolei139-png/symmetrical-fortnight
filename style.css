@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.player-container {
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+.controls {
+  padding: 12px;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #3498db;
+  color: white;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+input[type="range"] {
+  flex: 1;
+  margin: 0 8px;
+}
